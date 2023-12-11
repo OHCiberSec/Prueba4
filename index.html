@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pueba</h1>
+
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+    
+        <p>Elige 6 números (1-42):</p>
+        <input type="number" id="num1" min="1" max="42" required>
+        <input type="number" id="num2" min="1" max="42" required>
+        <input type="number" id="num3" min="1" max="42" required>
+        <input type="number" id="num4" min="1" max="42" required>
+        <input type="number" id="num5" min="1" max="42" required>
+        <input type="number" id="num6" min="1" max="42" required>
+    
+        <button type="button" onclick="Jugada()">Agregar Jugada</button>
+        <button type="button" onclick="terminar()">Terminar Jugada</button>
+      </form>
+
+      <p id="Resultados"></p>
+      
+
+        
+    <script src="assets/main.js"></script>
+</body>
+</html>
